@@ -1,0 +1,98 @@
+
+/* */
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+
+ 
+body {
+
+	font-family: arial, helvetica, sans-serif;
+    font-size: 16px;
+
+}
+ 
+.wrap {
+	margin: auto;
+	max-width: 800px;
+    width: 90%;
+    
+}
+ 
+.principal { 
+	color: #fff;
+	padding: 50px 0;
+    width: 100%;
+    
+}
+ 
+.principal .formulario {
+	color: #ffffff;
+    text-align: center;
+    
+}
+ 
+.principal .formulario input[type=text] {
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+}
+ 
+.principal .formulario input[type=text].error {
+	border: 5px solid #fa0000;
+	color: rgb(0, 0, 0);
+}
+ 
+.principal .formulario .boton {
+	background:white;
+	border-radius: 100px;
+	color: rgb(0, 0, 0);
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+}
+ 
+
+ 
+/* - Tareas - */
+.tareas .lista {
+	list-style: none;
+	
+}
+ 
+button {
+
+float: right;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+button.btnclase:hover {
+
+background:red;
+color: white;
+	
+}
+
+
+ 
+.tareas .lista li a:hover {
+	color:black;
+	
+	
+}
+
+h1 {
+	margin-bottom:60px;
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+}
+
